@@ -1,0 +1,71 @@
+import random #käsk selleks, et randint töötaks
+import turtle #käsk graafiliseks liideseks
+#Hanna-Liina Nöör 11.10.2025
+
+
+#Harjutus05.4
+# Mündiviskamise äraarvamine koos juhuslikkusega (and ja or) (või ehk or on ühele vastamine, and on kõigile vastamine)
+# Kirjuta programm, mis simuleerib mündiviskamist.
+# Programm genereerib juhusliku tulemuse – “kiri” või “kull”, kasutades random.randint(0,1) funktsiooni.
+# Programmi koostamisel pead importima import random mooduli ja kasutama randint() funktsiooni, et valida kahe võimaliku tulemuse vahel.
+# Näiteks, kui randint(0, 1) annab tulemuseks 0, siis võib see tähendada “kirja”, ja 1 võib tähendada “kulli”.
+# Seejärel palub programm kasutajal arvata, kumb külg maandub ülespoole.
+# Kasuta if lauset, et kontrollida, kas kasutaja arvas õigesti. Kui arvas õigesti, siis joonista Turtle abil roheline ring; kui valesti, siis punane ring.
+
+#0 - kiri
+#1 - kull
+
+
+mynt = random.randint(0,1)           #print(mynt) - nii saab alla kirja kas 0 või 1-e
+arvamus = input("kull või kiri: ")   #print(mynt, arvamus) - nii näitab all "kull või kiri:" ja siis annab vastuseks 0 kull, 1 kull, 0 kiri või 1 kiri
+
+turtle.color("green")
+turtle.speed(0)
+
+if mynt ==0 and arvamus=="kiri":
+    turtle.circle(100)
+    print("Tubli!")
+    
+elif mynt ==1 and arvamus=="kull":
+    turtle.circle(100)
+    print("Tubli!")
+    
+else:
+    turtle.color("red")
+    turtle.circle(100)
+    print("Proovi uuesti!")
+
+turtle.done()
+
+#Harjutus05.3
+# Matemaatika test (randint)
+# Kirjuta programm, mis kontrollib kasutaja poolt sisestatud vastust lihtsale matemaatikaülesandele.
+# Näiteks, programm esitab küsimuse “Mis on 3 korda 4?”. Kasutaja peab sisestama vastuse.
+#Kui kasutaja vastus on 12, siis programm väljastab “Õige vastus!”, kui aga vastus on midagi muud, siis väljastab “Vale vastus, proovi uuesti!”.
+# Kasuta if ja else lauseid selleks, et kontrollida kasutaja sisestatud vastust.
+
+arv1 = random.randint(1,10)
+arv2 = random.randint(1,10)
+tehe = arv1 * arv2
+vastus = int(input(f"{arv1} x {arv2} = "))
+if vastus == tehe:
+    print("Tubli!")
+else:
+    print("Istu, 2!")
+
+
+#Harjutus05.1
+# Vanusepiiranguga üritus
+# Sa oled loomas programmi, mis aitab kontrollida, kas inimesed vastavad vanusepiirangu nõuetele üritusel osalemiseks.
+# Programm palub kasutajal sisestada oma vanuse.
+#Kui vanus on vähemalt 18 aastat, siis programm annab teada, et kasutaja võib üritusele siseneda.
+#Kui vanus on alla 18, siis programm teatab, et üritusele sisenemiseks ei ole piisavalt vana.
+# Kasuta if ja else lauseid, et luua see vanusekontrolli programm.
+#> < >= <= == != <>
+
+vanus = int(input("Lisa vanus: "))
+if vanus>=18:
+    print("võib üritusele siseneda")
+else:
+    print("ei ole piisavalt vana")
+    
