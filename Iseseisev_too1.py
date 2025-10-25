@@ -4,7 +4,7 @@
 # # 1.1. Tervitus
 # # Koostada programm, mis väljastaks ekraanile teksti Tere, maailm! täpselt sellisel kujul - koma ja hüüumärgiga.
 
-# print("Tere, maailm!")
+print("Tere, maailm!")
            
 # # 1.2. Aasta liblikas
 # # Koostada programm, mille
@@ -19,11 +19,11 @@
 # # muutuja teelehe-mosaiikliblikas
 # # muutuja 
 
-# aasta = 2020
-# lause_keskosa = ".aasta liblikas on"
-# liblikas = "teelehe-mosaiikliblikas."
+aasta = 2020
+lause_keskosa = ".aasta liblikas on"
+liblikas = "teelehe-mosaiikliblikas."
 
-# print(aasta,lause_keskosa,liblikas)
+print(aasta,lause_keskosa,liblikas)
 
 
 
@@ -39,16 +39,16 @@
 # # pilvede aluse kõrgus nr 7.5
 # # kui sisestatud on üle 6,0 km
 # # kui kõrgus on 6,0 km või alla selle
-# #alumistel pilvedel on madalamal kui 2 km
+# #alumistel pilvedel on madalamal kui 2 km #
 
 
-# korgus = float(input("Mis on pilvede aluse kõgus?: "))
-# if korgus > 6:
-#     print("Need on ülemised pilved.")
-# elif korgus >= 2 and korgus <= 6:
-#     print("Need on keskmised pilved. ")
-# else:
-#     print("Need ei ole ülemised pilved!")
+korgus = float(input("Mis on pilvede aluse kõgus?: "))
+if korgus > 6:
+    print("Need on ülemised pilved.")
+elif korgus >= 2 and korgus <= 6:
+    print("Need on keskmised pilved. ")
+else:
+    print("Need ei ole ülemised pilved!")
 
 
 # 1.4. Bussid
