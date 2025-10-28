@@ -58,5 +58,9 @@ for kolmnurk in range(3):
     turtle.forward(100)
     turtle.right(120)
     
+turtle.backward(100)
+turtle.left(60)
+turtle.forward(100)
+    
     
 turtle.done()
