@@ -1,5 +1,6 @@
+#MUSTAND - pikk versioon
 #Kodune ülesanne nr 2 - kujund nr 12 (https://www.metshein.com/wp-content/uploads/2023/10/python-turtle-KT-scaled.jpg)
-#Hanna-Liina Nöör 28.10.2025
+#Hanna-Liina Nöör 27.10.2025
 
 import turtle
 
