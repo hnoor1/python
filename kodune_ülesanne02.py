@@ -1,5 +1,5 @@
 #Kodune ülesanne nr 2
-#Hanna-Liina Nöör 28.10.2025
+#Hanna-Liina Nöör 29.10.2025
 
 #Vaja on joonistada kujund nr 12 (https://www.metshein.com/wp-content/uploads/2023/10/python-turtle-KT-scaled.jpg)
 
