@@ -46,3 +46,4 @@ algne_saldo=konto_haldur("deposiit", 100, algne_saldo)
 
 
 print(algne_saldo)
+print(konto_haldur.__doc__)
